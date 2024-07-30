@@ -25,3 +25,7 @@ body {
     /* Optional: to see the grid boxes */
     box-sizing: border-box;
 }
+
+.grid-box:hover {
+    background-color: darkslategray;
+}
