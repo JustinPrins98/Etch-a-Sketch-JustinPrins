@@ -1,0 +1,27 @@
+:root {
+    --body-bg: rgb(173, 173, 173);
+}
+
+body {
+    margin: 0;
+    background-color: var(--body-bg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    width: 98vw;
+    height: 96vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-box {
+    background-color: white;
+    flex: 0 0 25%;
+    border: 1px solid #000;
+    /* Optional: to see the grid boxes */
+    box-sizing: border-box;
+}
