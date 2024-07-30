@@ -7,13 +7,15 @@ body {
     background-color: var(--body-bg);
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    gap: 2em;
     justify-content: center;
     align-items: center;
 }
 
 .grid-container {
-    width: 98vw;
-    height: 96vh;
+    width: 40em;
+    height: 40em;
     display: flex;
     flex-wrap: wrap;
 }
@@ -24,8 +26,4 @@ body {
     border: 1px solid #000;
     /* Optional: to see the grid boxes */
     box-sizing: border-box;
-}
-
-.grid-box:hover {
-    background-color: darkslategray;
 }
