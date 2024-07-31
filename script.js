@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let i = 0; i < amount; i++) {
             let box = document.createElement("div");
             box.classList.add("grid-box");
-            box.addEventListener("mouseover", () => {
+            box.addEventListener("mousemove", () => {
                 box.style.backgroundColor = "black";
             });
             gridContainer.appendChild(box);

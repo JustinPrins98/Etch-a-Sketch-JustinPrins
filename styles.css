@@ -14,16 +14,28 @@ body {
 }
 
 .grid-container {
-    width: 40em;
-    height: 40em;
     display: flex;
     flex-wrap: wrap;
+    width: 40em;
+    height: 40em;
+    box-sizing: border-box;
+    border: 1px solid #000;
 }
 
 .grid-box {
     background-color: white;
-    flex: 0 0 25%;
     border: 1px solid #000;
-    /* Optional: to see the grid boxes */
     box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+input[type="number"] {
+    width: 5em;
+    text-align: center;
 }
