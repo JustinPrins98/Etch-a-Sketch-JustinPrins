@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 1em;
 }
 
 .header {
@@ -19,4 +20,11 @@ body {
     justify-content: space-between;
     width: 30em;
     align-items: center;
+}
+
+.board {
+    width: 30em;
+    height: 30em;
+    display: grid;
+    border: solid black 2px;
 }
