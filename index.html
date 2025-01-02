@@ -11,20 +11,21 @@
 </head>
 
 <body>
-    <h1>Etch-a-Sketch</h1>
-    <div class="header">
-        <h6>Select the size</h6>
-        <button class="btn btn-danger" id="popup">Select</button>
-    </div>
-    <p id="showMessage"></p>
-    <p id="draw"></p>
+    <section>
+        <h1>Etch-a-Sketch</h1>
 
-    <div class="board"></div>
-    <div class="footer">
-        <button class="btn btn-dark" onclick="setColor('black')">Black</button>
-        <button class="btn btn-warning" onclick="setColor('random')">Random</button>
-        <button class="btn btn-primary" onclick="setResetBoard()">Reset</button>
-    </div>
+
+
+        <div class="board"></div>
+        <div class="footer">
+            <p id="showMessage"></p>
+            <p id="draw"></p>
+            <button class="btn btn-danger" id="popup">Select size</button>
+            <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+            <button class="btn btn-warning" onclick="setColor('random')">Random</button>
+            <button class="btn btn-primary" onclick="setResetBoard()">Reset</button>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>

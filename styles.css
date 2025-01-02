@@ -1,9 +1,25 @@
-body {
+body section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1em;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: 3;
+    background-color: red;
+    width: 50em;
+}
+
+h1 {
+    padding-top: 1em;
 }
 
 .header {
@@ -26,5 +42,6 @@ body {
     width: 30em;
     height: 30em;
     display: grid;
+    background-color: white;
     border: solid black 2px;
 }
